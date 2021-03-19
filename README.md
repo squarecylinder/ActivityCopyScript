@@ -1,7 +1,7 @@
 # ActivityCopyScript
 A bash script to grab your activities, put them in a new directory, and then zip it so you can slack it out to your students!
 ### CONFIGURE
-Make sure to edit the script to point to **your** specific fullstack-ground/01-class-content directory! It is currently set for my own.
+Make sure to edit the script to point to **your** specific fullstack-ground/01-class-content directory! It is currently set for my own. You may also need to set up 7zip in your envoirment variables so that bash can use the 7z command in the script!
 ### The Command Line
 To invoke the script open up your terminal of choice, then type in the name of the script (I won't get mad if you change the name), and enter in your three arguments.
 
