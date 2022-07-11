@@ -9,7 +9,7 @@ To invoke the script open up your terminal of choice, then type in the name of t
 ### Week
 Enter in any week number you are on ie. week 17 would be 17. The script will go check your 01-Class-Content directory for any subdirectory that matches 17. If you put in 2 for week two don't worry! I have formatted the argument to be a leading zero to match with the naming scheme!
 ### New Directory Name
-The second argument you put in will be your new directory name. I prefer to use the _week#Day#_ format; it helps me and the students carpetmentalize everything neatly!
+The second argument you put in will be your new directory name. I prefer to use the _week#Day#_ format; it helps me and the students compartmentalize everything neatly!
 ### Range Start and End
 The third and fourth arguments will be your range. If the lesson plan calls for lessons 01 02 03 04 05 06 07 you can just write 1 7. Don't worry here either, I have set it for leading 0s, or you can type them out if you wish too.
 ### Finale!
