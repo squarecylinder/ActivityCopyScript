@@ -27,7 +27,7 @@ do
 for fileInDir in ${dirList[@]}
 do
 # check if our array matches the names of dirs in the main dir ie. 03 matches 03-Stu_Traverse-That-Dom
-if [[ "$fileInDir" == *"$inputToMatch-Stu"* ]]; then
+if [[ "$fileInDir" == *"$inputToMatch"* ]]; then
 # if conditional is met, make a new directory inside our new folder example week4Day1
 mkdir $newDir/$fileInDir
 # copy everything that matches so 03 and 03S_T-T-D into a new Dir EXCLUDING Solved since we don't want the students having the solved activities
