@@ -41,6 +41,6 @@ done
 fi
 done
 7z a $newDir".zip" $newDir
-echo 'All Folders and Files excluding Solved have been copied into' $newDir
+echo 'All Solved have been copied into' $newDir
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 read wait
