@@ -31,7 +31,7 @@ if [[ "$fileInDir" == *"$inputToMatch"* ]]; then
 # if conditional is met, make a new directory inside our new folder example week4Day1
 mkdir $newDir/$fileInDir
 # copy everything that matches so 03 and 03S_T-T-D into a new Dir EXCLUDING Solved since we don't want the students having the solved activities
-eval cp -r $fileInDir/Solved $newDir/$fileInDir
+eval cp -r $fileInDir/!(Solved) $newDir/$fileInDir
 # end the if statement
 fi
 # end the nested loop
